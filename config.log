@@ -1,0 +1,36 @@
+file E:\GitHub\storm-analysis\SConstruct,line 64:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for C library fftw3-3... 
+.sconf_temp\conftest_df286a1d2f67e69d030b4eff75ca7e12_0.c <-
+  |
+  |
+  |
+  |int
+  |main() {
+  |  
+  |return 0;
+  |}
+  |
+gcc -o .sconf_temp\conftest_df286a1d2f67e69d030b4eff75ca7e12_0.o -c -O3 -Wall .sconf_temp\conftest_df286a1d2f67e69d030b4eff75ca7e12_0.c
+gcc -o .sconf_temp\conftest_df286a1d2f67e69d030b4eff75ca7e12_0_ef2000512fca927535533be1436dd43c.exe .sconf_temp\conftest_df286a1d2f67e69d030b4eff75ca7e12_0.o -lfftw3-3
+D:/.anaconda/envs/mp_smlm/Library/mingw-w64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lfftw3-3
+collect2.exe: error: ld returned 1 exit status
+scons: Configure: no
+
+scons: Configure: Checking for C library lapack... 
+.sconf_temp\conftest_df286a1d2f67e69d030b4eff75ca7e12_1.c <-
+  |
+  |
+  |
+  |int
+  |main() {
+  |  
+  |return 0;
+  |}
+  |
+gcc -o .sconf_temp\conftest_df286a1d2f67e69d030b4eff75ca7e12_1.o -c -O3 -Wall .sconf_temp\conftest_df286a1d2f67e69d030b4eff75ca7e12_1.c
+gcc -o .sconf_temp\conftest_df286a1d2f67e69d030b4eff75ca7e12_1_250242437b024bc1dec352704c693530.exe .sconf_temp\conftest_df286a1d2f67e69d030b4eff75ca7e12_1.o -llapack
+D:/.anaconda/envs/mp_smlm/Library/mingw-w64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llapack
+collect2.exe: error: ld returned 1 exit status
+scons: Configure: no
+
